@@ -1,0 +1,65 @@
+/* colours */
+
+
+@black:			#000D1F;
+
+@white:			#FFFFFF;
+
+@white-alt:		#F5F6DF; /*VERY VERY LIGHT CREAM*/
+
+@bg-grey:		#F4F4F4;
+@dk-grey:		#1D1D1B;
+@text-grey:		lighten(@dk-grey, 40%);
+
+@sky-blue:		#79D1E4;
+@sky-blue-alt:	#4689C8;
+
+@blue:			#383E76; /*DARK BLUE*/
+@blue-alt:		#2F405C; /*DARK BLUE - DESATURATED*/
+
+@cream:			#E3D6B6; /*VERY LIGHT YELLOW - CREAM*/
+@cream-alt:		#D2CCAA; /*VERY LIGHT YELLOW - CREAM*/
+
+@dust:          #F3DC92; /*VERY LIGHT PINK*/
+@dust-alt:      #EBB8BC; /*VERY LIGHT PINK*/
+
+@peach:	    	#EF736F; /*OFF PINK*/
+@pink:	    	#F85C84; /*PINK*/
+@red:			#D5143D; /*RED*/
+
+@yellow: 		#F8DC7A; /*DUSTY YELLOW*/
+@yellow-alt: 	#F8DC7A; /*BRIGHT YELLOW*/
+
+@mint:			#89D7A6; /*DUSTY MINT*/
+@mint-alt:		#1ACBB9; /*BRIGHT MINT*/
+
+/* sizes */
+
+@siteBorder-small:	10px;
+@siteBorder:		18px;
+@navHeight-large:   80px;
+@navHeight-small:   55px;
+@borderWidth:       5px;
+@borderRadius:      5px;
+@boxShadow:         0px 1px 0px fadeout(@black, 85%);
+@innerShadow:       inset 0px 1px 0px fadeout(@black, 70%);
+@textShadow:        0px 1px 1px fadeout(@black, 40%);
+
+/* typography */
+
+/* Media Queries */
+
+@mq-highdensity: ~"only screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 751px)",
+              ~"only screen and (min--moz-device-pixel-ratio: 1.5) and (min-width: 751px)",
+              ~"only screen and (-o-min-device-pixel-ratio: 3/2) and (min-width: 751px)",
+              ~"only screen and (min-device-pixel-ratio: 1.5) and (min-width: 751px)";
+			  
+@mq-small: ~"only screen and (min-width: 0em) and (max-width: 37.5em)";
+@mq-medium: ~"only screen and (min-width: 37.5em)"; //600 / 16
+@mq-biggish: ~"only screen and (min-width: 56.25em)"; //900 / 16
+@mq-large: ~"only screen and (min-width: 70em)"; //1120 / 16
+@mq-monstrous: ~"only screen and (min-width: 95em)"; //1520 / 16
+
+@mq-smallHeight: ~"only screen and (max-height: 40em)"; //650 / 16
+@mq-iPad: ~"only screen and (min-device-width : 768px) and (max-device-width : 1024px)";
+@mq-iPad1: ~"only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (-webkit-min-device-pixel-ratio: 1)";

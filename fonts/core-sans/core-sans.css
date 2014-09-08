@@ -1,0 +1,35 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 2828194, 2014-06-13T04:45:15-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Core Sans A 35 Light by S-Core
+ * URL: http://www.myfonts.com/fonts/s-core/core-sans-a/light/
+ * Copyright: Core Sans A 35 Light
+ * 
+ * Webfont: Core Sans A 65 Bold by S-Core
+ * URL: http://www.myfonts.com/fonts/s-core/core-sans-a/bold/
+ * Copyright: Core Sans A 65 Bold
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2828194
+ * Licensed pageviews: 10,000
+ * 
+ * © 2014 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2b27a2");
+
+  
+@font-face {font-family: 'CoreSansA35Light';src: url('webfonts/2B27A2_0_0.eot');src: url('webfonts/2B27A2_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2B27A2_0_0.woff') format('woff'),url('webfonts/2B27A2_0_0.ttf') format('truetype'),url('webfonts/2B27A2_0_0.svg#wf') format('svg');}
+ 
+  
+@font-face {font-family: 'CoreSansA65Bold';src: url('webfonts/2B27A2_1_0.eot');src: url('webfonts/2B27A2_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2B27A2_1_0.woff') format('woff'),url('webfonts/2B27A2_1_0.ttf') format('truetype'),url('webfonts/2B27A2_1_0.svg#wf') format('svg');}
+ 

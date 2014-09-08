@@ -1,0 +1,273 @@
+@import "base";
+@import "variables";
+@import "fonts";
+@import "library";
+@import "standard-style-classes";
+@import "slides";
+
+
+html, body { min-height: 100%; }
+
+.wf-loading {
+
+  h1, h2, h3, h4, h5, h6, p {
+
+  }
+
+}
+
+.wf-active {
+
+  h1, h2, h3, h4, h5, h6, p {
+
+  }
+
+}
+
+body {
+  .clearfix;
+}
+
+.wrapper {
+  .clearfix; overflow: hidden; position: relative;
+}
+
+nav {
+  width: 100%; 
+  position: relative;
+  height: @navHeight-small; line-height: @navHeight-small; .clearfix;
+  //background: @white;
+  z-index: 1000;
+  .heading; .bold;
+  color: @white;
+
+  .narrowColumn {
+    text-align: center;
+  }
+
+  &.fixed {
+    position: fixed; background: @white; padding-top: 0px; height: @navHeight-small; line-height: @navHeight-small !important;
+
+    #logo {
+      width: 80px;
+      #whiteLogo { display: none; }
+      #blueLogo { display: block; }
+    }
+  }
+
+
+}
+
+#logo {
+  height: 100%;
+
+  #blueLogo { display: inline-block; }
+  #whiteLogo { display: none; }
+
+  img {
+    vertical-align: middle;
+    margin-bottom: 3px;
+    height: 70%;
+  }
+}
+
+ul.mainNavigation {
+  display: none;
+}
+
+footer {
+  .clearfix;
+  position: relative;
+  background: @white;
+  color: @text-grey;
+  padding: 70px 30px;
+  width: 100%;
+  text-align: left;
+
+  h5 {
+    .size(14px);
+  }
+
+  li {
+    a {
+      color: @blue; .size(16px); line-height: 185%; .light; .sans;
+    }
+  }
+
+  p {
+    .size(16px); line-height: 185%;
+  }
+
+  .panel { padding: 0 15px; margin-bottom: 20px; }
+
+  i {
+    display: inline-block; margin-right: 5px; width: 20px;
+  }
+
+}
+
+/* mixin for all columns */
+.mixin-panel {
+    position: relative;
+    float: left;
+    -moz-background-clip:padding-box !important;
+    -webkit-background-clip:padding-box !important;
+    background-clip:padding-box !important;
+    overflow: hidden;
+}
+
+/* use for all 'columns' */
+.panel {
+  .mixin-panel;
+}
+
+.third, .quarter, .half { width: 100%; }
+
+
+.card {
+
+  text-align: center;
+  padding: 0px 17px; margin-bottom: 30px;
+  p { .size(16); }
+  h2 { padding-top: 20px; }
+
+  img { width: 42%; margin: 0px auto; display: block; }
+
+}
+
+input[type=text], input[type=email] {
+   border: none;
+   background: @white;
+   -webkit-appearance: none;
+   //border-bottom: 3px solid @white-alt;
+   .size(20);
+   color: @text-grey;
+   padding: 15px 15px;
+   margin-right: 10px;
+   margin-bottom: 18px;
+   width: 100%;
+   .rounded(3px);
+   max-width: 300px;
+
+   &:hover, &:focus {
+       //background: fadeout(@white-alt, 70%);
+   }
+   
+   &:focus {
+       outline: none;
+       color: @dk-grey;
+   }
+}
+
+.inputPlaceholder(fadeout(@dk-grey, 70%);
+
+
+button.formSubmit {
+
+    
+    .mixin-cta(#0A8CC9, @white-alt); 
+
+}
+
+@media @mq-small {
+	.panel {
+    width: 100%; float: none; clear: both;
+
+    &.half {
+
+      .half {
+        width: 50%; float: left; clear: none;
+      }
+
+    }
+
+  }
+}
+
+@media @mq-medium {
+
+  /*nav#main {
+    .narrowColumn {
+      text-align: left;
+    }
+  }
+
+  #logo {
+    display: block;
+    float: left;
+  }
+
+  ul.mainNavigation {
+    float: right; display: block;
+
+    li {
+      display: inline-block;
+
+      a {
+        .mixin-cta(@sky-blue-alt, @white, 40px, 16);
+      }
+
+      &:not(:last-child){
+        margin-right: 35px;
+      }
+    }
+  }*/
+
+  nav {
+    height: @navHeight-large; line-height: @navHeight-large  !important;
+  }
+
+  .half, .quarter {
+    width: 50%;
+  }
+
+  .third {
+    width: 33%;
+  }
+
+  .card {
+
+    padding: 0px 24px; margin-bottom: 25px;
+    h2 { padding-top: 18px; }
+    
+    img { width: 50%; float: none;}
+
+  }
+
+
+}
+
+@media @mq-biggish {
+
+  .card {
+
+    padding: 0px 35px; margin-bottom: 40px;
+    h2 { padding-top: 25px; }
+
+  }
+
+}
+
+@media @mq-large {
+  
+  .quarter {
+    width: 25%;
+  }
+  
+  .fifth {
+    width: 20%;
+  }
+
+  .card {
+
+    padding: 0px 40px; margin-bottom: 50px;
+    h2 { padding-top: 30px; }
+
+    img { width: 70%; float: none;}
+
+  }
+}
+
+@media @mq-monstrous {
+ 
+}

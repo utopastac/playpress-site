@@ -1,0 +1,206 @@
+/* rounded / shadow / extras */
+
+.rounded (@radius: 5px) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  -ms-border-radius: @radius;
+  -o-border-radius: @radius;
+  border-radius: @radius;
+} /* useage - .rounded(10px) */
+
+.box-shadow (@arguments) {
+  box-shadow: @arguments;
+  -moz-box-shadow: @arguments;
+  -webkit-box-shadow: @arguments;
+} /* useage -
+  @shadow: inset 0px 1px 0px white, 0px 0px 5px #aaa;
+  .box-shadow(@shadow);
+   - http://stackoverflow.com/questions/8503088/concatenating-arbitrary-number-of-values-in-lesscss-mixin/8515414#8515414
+  */
+
+.inputPlaceholder(@col: #000000){
+	/* all */
+	::-webkit-input-placeholder { color: @col; }
+	::-moz-placeholder { color: @col; } /* firefox 19+ */
+	:-ms-input-placeholder { color: @col; } /* ie */
+	input:-moz-placeholder { color: @col; }
+}
+
+.animate(@duration: 0.3s){
+	-webkit-transition: all @duration ease-in-out; -moz-transition: all @duration ease-in-out; -o-transition: all @duration ease-in-out; transition: all @duration ease-in-out;
+}
+
+.no-tap-highlight {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.transition (...) {
+	-webkit-transition: @arguments;  
+	-moz-transition: @arguments;
+	-ms-transition: @arguments; 
+	-o-transition: @arguments;  
+}
+
+.parallax(@width) {
+	from { background-position: 0px bottom; }
+	to { background-position: @width bottom; }
+}
+
+.textClip() {
+	-webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;	
+	-webkit-text-fill-color: transparent;
+}
+
+.inline(){
+	display: inline-block; position: relative; margin-right: -4px; vertical-align: top; /* float: left; display: block; position: realtive; */
+}
+
+.mixin-wideImage(){
+	img { width: 100%; }
+}
+
+.borderBg(@background: @black){
+	border-bottom: 1px solid darken(@background, 5%); border-top: 1px solid desaturate(lighten(@background, 10%), 30%); background-color: @background;	
+}
+
+/*.size(@target, @context: 16){
+	@em: (@target / @context);
+	font-size: ~"@{em}em";
+}*/
+.size(@target){
+	@remSize: @target / 16;
+	font-size: ~"@{target}px";
+	font-size: ~"@{remSize}rem";
+}
+
+.modualarType(@index: 1, @base: 1em, @ratio: 1.618){
+	font-size: 16px;
+}
+
+.ignorePadding(){
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+
+.addPadding(){
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-ms-box-sizing: content-box;
+	-o-box-sizing: content-box;
+	box-sizing: content-box;	
+}
+
+.bigBackground(){
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	-ms-behavior: url(../scripts/backgroundsize.min.htc);
+}
+
+.clearfix() {
+	zoom: 1;
+	&:before { content: ''; display: block; }
+	&:after { content: ''; display: table; clear: both; }
+	/*overflow: hidden;
+	_overflow: visible;
+	_zoom: 1;*/
+}
+
+.mobileBg(){
+	background-attachment: scroll !important;	
+}
+
+.scrollable(){
+	-webkit-overflow-scrolling: touch;
+}
+
+.fixScroll(){
+	/*-webkit-transform: translate3d(0,0,0);
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective: 1000;
+	-webkit-transform-style: flat;	*/
+}
+
+/* 
+@shadow: 1px, 1px, 1px, #000000;
+.text_shadow(@shadow) */
+.text_shadow(@arguments){
+	text-shadow: @arguments;
+    filter: dropshadow(color=#000000, offx=0, offy=0);
+}
+
+.textStroke(@colour: #000000, @offset: 1px, @stokeColour: #FFFFFF){
+	color: @colour;
+   -webkit-text-fill-color: @colour;
+   -webkit-text-stroke-width: @offset;
+   -webkit-text-stroke-color: @stokeColour;
+}
+
+.stopSelect {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;	
+}
+
+.gradient(@color: #F5F5F5, @start: #EEE, @stop: #FFF) {
+  background: @color;
+  background: -webkit-gradient(linear,
+                               left bottom,
+                               left top,
+                               color-stop(0, @start),
+                               color-stop(1, @stop));
+  background: -ms-linear-gradient(bottom,
+                                  @start,
+                                  @stop);
+  background: -moz-linear-gradient(center bottom,
+                                   @start 0%,
+                                   @stop 100%);
+  background: -o-linear-gradient(@stop,
+                                 @start);
+  filter: e(%("progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=0)",@stop,@start));
+}
+
+.opacity(@opacity: 0.5) {
+  -moz-opacity: @opacity;
+  -khtml-opacity: @opacity;
+  -webkit-opacity: @opacity;
+  opacity: @opacity;
+  @opperc: @opacity * 100;
+  -ms-filter: ~"progid:DXImageTransform.Microsoft.Alpha(opacity=@{opperc})";
+  filter: ~"alpha(opacity=@{opperc})";
+}
+
+.animation (...) {
+	-webkit-animation: @arguments;
+	-moz-animation: @arguments;
+	-o-animation: @arguments;
+	animation: @arguments;
+}
+
+/*
+
+.animation(example 5s linear 3s infinite alternate);
+
+@-webkit-keyframes example {.example;}
+@-moz-keyframes example {.example;}
+@-o-keyframes example {.example;}
+@keyframes example {.example;}
+
+
+.example() {
+	from (margin-top: 3px;)
+	to (margin-top: 333px;)
+}
+ 
+*/

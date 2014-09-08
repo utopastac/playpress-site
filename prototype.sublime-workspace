@@ -1,0 +1,621 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pro",
+				"proxy"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"fade",
+				" fadeout(@color, 10%)"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"borde",
+				"border-top"
+			],
+			[
+				"nav",
+				"navHeight-small"
+			],
+			[
+				"in",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "css/dev/styles.less",
+			"settings":
+			{
+				"buffer_size": 3828,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 12082,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/dev/jquery.matchHeight.js",
+			"settings":
+			{
+				"buffer_size": 1663,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/dev/standard-style-classes.less",
+			"settings":
+			{
+				"buffer_size": 3153,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/dev/slides.less",
+			"settings":
+			{
+				"buffer_size": 4773,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/dev/library.less",
+			"settings":
+			{
+				"buffer_size": 5211,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"file": "/Users/peter/Documents/m_and_s_work/prototypes/sofa-modular/sofa-modular.sublime-project",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/dev/App.js",
+			"settings":
+			{
+				"buffer_size": 3145,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/peter/Documents/toy/prototype/html/css/dev/variables.less",
+		"/Users/peter/Documents/toy/prototype/html/css/dev/fonts.less",
+		"/Users/peter/Documents/m_and_s_work/tablet-shopping/prototypes/sofa-modular/recipe-landing.sublime-project",
+		"/Users/peter/Documents/toy/prototype/html/js/dev/plugins.js",
+		"/Users/peter/Documents/toy/prototype/html/js/dev/App.js",
+		"/Users/peter/Documents/m_and_s_work/recipes_app/cook-landing-page/assets/index 2.html",
+		"/Users/peter/Documents/toy/prototype/html/css/dev/slide_elements.less",
+		"/Users/peter/Documents/toy/prototype/html/css/dev/slides.less",
+		"/Users/peter/Documents/toy/prototype/html/css/dev/library.less",
+		"/Users/peter/Documents/m_and_s_work/shirts/prototype/index.html",
+		"/Users/peter/Documents/toy/prototype/html/js/dev/jquery.tabbing.js",
+		"/Users/peter/Documents/toy/prototype/html/css/dev/standard-style-classes.less",
+		"/Users/peter/Documents/toy/prototype/html/css/dev/styles.less",
+		"/Users/peter/Documents/toy/prototype/html/index.html",
+		"/Users/peter/Dropbox/wwww&w/brand/site/html/index.html",
+		"/Users/peter/Documents/toy/prototype/html/js/dev/jquery.screenHeight.js",
+		"/Users/peter/Documents/toy/prototype/html/js/dev/jquery.verticalCentre.js",
+		"/Users/peter/Documents/toy/prototype/html/js/dev/jquery.floatWidth.js",
+		"/Users/peter/Documents/toy/prototype/html/js/dev/jquery.matchHeight.js",
+		"/Users/peter/Documents/toy/prototype/html/js/dev/Utils.js",
+		"/Users/peter/Documents/toy/prototype/html/js/dev/jquery.floatWidths.js",
+		"/Users/peter/Documents/toy/prototype/html/js/dev/jquery.touchSlide.js",
+		"/Users/peter/Documents/toy/prototype/html/js/dev/jquery.viewOnScroll.js",
+		"/Users/peter/Documents/toy/prototype/html/environment.html",
+		"/Users/peter/Documents/toy/prototype/html/css/dev/structure.less",
+		"/Users/peter/Documents/toy/prototype/html/css/dev/base.less",
+		"/Users/peter/Documents/toy/prototype/icons.ai",
+		"/Users/peter/Dropbox/Toy/website_phase_1/html/environment.html",
+		"/Users/peter/Dropbox/Toy/website_phase_1/html/css/dev/structure.less",
+		"/Users/peter/Dropbox/Toy/website_phase_1/html/css/dev/slide_elements.less",
+		"/Users/peter/Dropbox/Toy/website_phase_1/html/css/dev/slides.less",
+		"/Users/peter/Dropbox/Toy/website_phase_1/html/index.html",
+		"/Users/peter/Dropbox/Toy/website_phase_1/html/css/dev/styles.less",
+		"/Users/peter/Dropbox/port_2012/html/wp/DigitalDesign_2014/header.php",
+		"/Users/peter/Dropbox/port_2012/html/wp/DigitalDesign_2014/single.php",
+		"/Users/peter/Dropbox/port_2012/html/wp/DigitalDesign_2014/style-dev/styles.less",
+		"/Users/peter/Dropbox/port_2012/html/wp/DigitalDesign_2014/style.css",
+		"/Users/peter/Dropbox/port_2012/html/wp/DigitalDesign_2014/footer-tag.php",
+		"/Users/peter/Dropbox/port_2012/html/wp/DigitalDesign_2014/footer.php",
+		"/Users/peter/Dropbox/port_2012/html/wp/DigitalDesign_2014/footer-category.php",
+		"/Users/peter/Dropbox/port_2012/html/wp/DigitalDesign_2014/scripts/jquery.matchHeight.js",
+		"/Users/peter/Dropbox/port_2012/html/wp/DigitalDesign_2014/js/jquery.fill.js",
+		"/Users/peter/Dropbox/Toy/site/html/css/styles.less"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"nav",
+			"logo",
+			"card",
+			"shad",
+			"logo",
+			"card",
+			"cta",
+			"input",
+			"#logo",
+			"@baseTextSize",
+			"a ",
+			".panel",
+			"footer",
+			":before",
+			"<a",
+			"<a>",
+			"ultr",
+			".sans",
+			"cta",
+			"logo",
+			"before",
+			"logoWidth",
+			"underline",
+			".panel",
+			"narr",
+			".card",
+			".crad",
+			"narrow",
+			"wrapper",
+			"5px",
+			".bg",
+			"contentWr",
+			"z-in",
+			"cover",
+			"fullscre",
+			"a {",
+			"Info",
+			"content",
+			"blockquote",
+			"quote",
+			"z-index",
+			"fullSlideInnerContent",
+			"header",
+			"bg",
+			"bigS",
+			"contentW",
+			"half",
+			"fullSli",
+			"medium",
+			".card",
+			"data",
+			"card",
+			"contentWrap",
+			".panel",
+			"click",
+			"panel",
+			"panelCon",
+			"tabC",
+			"<span class = \"underline\"></span>",
+			"nav",
+			"a.cta",
+			".under",
+			"<div class = \"underline\"></div>",
+			"footer",
+			"fullSl",
+			"\n\n\n\n.mixin-bgElem",
+			"img",
+			"contentClass",
+			".imagePanel",
+			"power",
+			"main_1.jpg",
+			"images/ship-1.jpg",
+			"mixin",
+			"&.half",
+			"&.full",
+			"textPanel",
+			"min-he",
+			"min-height",
+			"third",
+			"copyContent",
+			"copyCont",
+			"copyCon",
+			".half",
+			"people",
+			"data-vertical-centre = \"true\"",
+			".mixin-cta",
+			"cta",
+			".cta",
+			"NavManager",
+			"wrapper",
+			"line-h",
+			".size",
+			"h1",
+			"icon-long-arrow-down icon-2x\"",
+			"fa--",
+			"fa-icon",
+			"icon-long-arrow-right icon-large",
+			".mixin",
+			".skills",
+			".block",
+			"mobile-sc",
+			".thumbnail",
+			".block",
+			"sideColu",
+			"nav"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"<span class = \"underline\"></span>",
+			"man_1.png",
+			"images/carousel/main_1.jpg",
+			"&.halfSlide",
+			"&.fullSlide",
+			"contentWrapper",
+			"person",
+			"",
+			"fa fa-long-arrow-down fa-2x\"",
+			"fa-",
+			"fa fa-icon-long-arrow-right fa-2x"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "css/dev/styles.less",
+					"settings":
+					{
+						"buffer_size": 3828,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								474,
+								474
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS-sublime-master/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 12082,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								699,
+								699
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/dev/jquery.matchHeight.js",
+					"settings":
+					{
+						"buffer_size": 1663,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/dev/standard-style-classes.less",
+					"settings":
+					{
+						"buffer_size": 3153,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2742,
+								2742
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS-sublime-master/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1331.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/dev/slides.less",
+					"settings":
+					{
+						"buffer_size": 4773,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3761,
+								3761
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS-sublime-master/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "css/dev/library.less",
+					"settings":
+					{
+						"buffer_size": 5211,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1089,
+								1023
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS-sublime-master/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2145.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/peter/Documents/m_and_s_work/prototypes/sofa-modular/sofa-modular.sublime-project",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "js/dev/App.js",
+					"settings":
+					{
+						"buffer_size": 3145,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 457.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.765925023014,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 283.0,
+	"status_bar_visible": true
+}
